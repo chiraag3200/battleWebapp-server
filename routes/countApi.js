@@ -26,8 +26,8 @@ MongoClient.connect(connectionUrl, {useNewUrlParser:true}, (error,client) => {
     
 })
 
-router.get("/",function(req,res){
-    res.send(countBattles)
-})
+// router.get("/",function(req,res){
+//     res.send(countBattles)
+// })
 
 module.exports=router 

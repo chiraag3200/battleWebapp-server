@@ -28,8 +28,8 @@ MongoClient.connect(connectionUrl, {useNewUrlParser:true}, (error,client) => {
 })
 
 
-router.get("/",function(req,res){
-    res.send(data)
-})
+// router.get("/",function(req,res){
+//     res.send(data)
+// })
 
 module.exports=router 
