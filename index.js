@@ -19,9 +19,9 @@ app.use('/count',countApiRouter)                              // api to return t
 app.use(searchApiRouter)                                      // api to return the details of a specific battle
 
 
-// app.get("/", (req, res) => {                                  // home page
-//   res.sendFile(__dirname + "/home.html");
-// });
+app.get("/", (req, res) => {                                  // home page
+  res.sendFile(__dirname + "/home.html");
+});
 
 
 app.listen(port, () => {
